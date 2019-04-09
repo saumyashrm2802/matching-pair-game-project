@@ -1,0 +1,95 @@
+body {
+	margin:0;
+}
+.heading {
+	font-size:70px;
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(209,209,209,1) 25%, rgba(184,180,184,1) 51%, rgba(219,219,219,1) 82%, rgba(254,254,254,1) 100%);
+	width:100%;
+	text-align:center;
+	color:maroon;
+	border:solid 5px maroon;
+}
+.container {
+	height:680px;
+	width:620px;
+	padding:32px;/*jaise hi ye daala sab uniform ho gya :);*/
+	background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	list-style-type: none;
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: space-between;
+	border-radius:10px;
+	box-shadow: 10px 10px 14px 0px rgba(181,175,181,1);
+}
+
+.box {
+	width:125px;
+	height:125px;
+	margin:10px;
+	background-color:grey;
+	text-align:center;
+	border-radius:10px;
+	font-size:0px;
+	background: linear-gradient(to right, rgba(92,86,92,1) 0%, rgba(92,86,92,1) 2%, rgba(230,227,230,1) 18%, rgba(97,94,97,1) 34%, rgba(230,227,230,1) 50%, rgba(84,81,84,1) 68%, rgba(240,240,240,1) 84%, rgba(107,103,107,1) 96%, rgba(112,106,112,1) 100%);
+	display:flex;/* ye teen isliye daala so tha fa fa vala content har ek card k center me aaye*/
+	align-items: center;
+	justify-content: center;
+}
+
+
+.big { 
+	background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	
+}
+.score-panel {
+	display: flex;
+	color:white;
+	font-size:20px;
+
+}
+.star-panel {
+	
+	list-style-type: none;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.star {
+	padding:2px;
+	color:#AEF420;
+}
+.restart {
+	
+	font-size:20px;
+	margin-left:80px;
+}
+.timer {
+	margin-left:80px;
+}
+.moves {
+	
+	margin-left:80px;
+}
+.class-click {
+	font-size:40px;
+	color:white;
+	background:linear-gradient(to right, rgba(117,102,25,1) 0%, rgba(143,94,34,1) 0%, rgba(219,165,57,1) 15%, rgba(166,129,55,1) 32%, rgba(245,179,12,1) 49%, rgba(158,124,37,1) 68%, rgba(227,174,41,1) 85%, rgba(128,90,23,1) 100%);;
+}
+
+.disable {
+	pointer-events: none;
+}
+.class-match {
+	color:black;
+	/*border:1px solid black;*/
+	box-shadow: -2px 7px 45px 12px rgba(227,138,29,1);
+	}
+.hide-star {
+	color:red;
+}
