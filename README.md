@@ -1,4 +1,4 @@
-# Saumya's memory game project
+# Saumya's matching pair game project
 
 Description:
 
